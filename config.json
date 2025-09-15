@@ -1,32 +1,35 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/P9eYXjoVrSh8u3qmT8jxzS/graphql",
-      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/P9eYXjoVrSh8u3qmT8jxzS/graphql",
+      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
+      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
-          "AC-View-ID": "125d00f4-982c-4e19-9a12-910e8fd1f724",
-          "AC-Price-Book-ID": "YOUR_HEADER_VALUE",
-          "AC-Source-Locale": "en-US"
+          "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "default",
+          "Magento-Website-Code": "base",
+          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
+          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
-        "environment": "Testing",
-        "environment-id": "P9eYXjoVrSh8u3qmT8jxzS",
-        "store-code": "YOUR_STORE_CODE",
-        "store-id": "YOUR_STORE_ID",
-        "store-name": "YOUR_STORE_NAME",
-        "store-url": "YOUR_STORE_URL",
-        "store-view-code": "YOUR_STORE_VIEW_CODE",
-        "store-view-id": "YOUR_STORE_VIEW_ID",
-        "store-view-name": "YOUR_STORE_VIEW_NAME",
-        "website-code": "YOUR_WEBSITE_CODE",
-        "website-id": "YOUR_WEBSITE_ID",
-        "website-name": "YOUR_WEBSITE_NAME"
+        "environment": "Production",
+        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
+        "store-code": "main_website_store",
+        "store-id": "main_website_store",
+        "store-name": "Default Store View",
+        "store-url": "https://www.aemshop.net/",
+        "store-view-code": "default",
+        "store-view-id": "default",
+        "store-view-name": "Default Store View",
+        "website-code": "base",
+        "website-id": "base",
+        "website-name": "Main Website"
       },
       "plugins": {
         "picker": {
