@@ -8,9 +8,9 @@
           "Store": "default"
         },
         "cs": {
-          "AC-View-ID": "YOUR_HEADER_VALUE",
+          "AC-View-ID": "125d00f4-982c-4e19-9a12-910e8fd1f724",
           "AC-Price-Book-ID": "YOUR_HEADER_VALUE",
-          "AC-Source-Locale": "YOUR_HEADER_VALUE"
+          "AC-Source-Locale": "en-US"
         }
       },
       "analytics": {
